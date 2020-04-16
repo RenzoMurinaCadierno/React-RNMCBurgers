@@ -1,0 +1,52 @@
+.Auth {
+  margin: 20px auto;
+  width: 80%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Auth form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Auth button {
+  display: block;
+  width: 80%;
+  margin-top: 16px;
+  align-self: center;
+}
+
+/* medium mobile */
+@media (min-width: 450px) and (min-height: 400px) {
+  .Auth {
+    width: 400px;
+    height: 260px;
+  }
+}
+/* end medium mobile */
+
+/* medium screen */
+@media (min-width: 550px) and (min-height: 401px) {
+  .Auth {
+    width: 450px;
+    height: 260px;
+  }
+}
+/* end medium screen */
+
+/* large screen */
+@media (min-width: 1000px) and (min-height: 700px) {
+  .Auth {
+    width: 700px;
+    height: 260px;
+  }
+}

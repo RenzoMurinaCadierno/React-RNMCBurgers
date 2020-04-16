@@ -1,0 +1,37 @@
+.CheckoutSummary {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+/* @media (min-width: 600px) {
+  .CheckoutSummary {
+    width: 500px;
+  }
+} */
+
+/* medium mobile */
+@media (min-width: 450px) and (min-height: 400px) {
+  .CheckoutSummarys {
+    width: 350px;
+    height: 300px;
+  }
+}
+/* end medium mobile */
+
+/* medium screen */
+@media (min-width: 550px) and (min-height: 401px) {
+  .CheckoutSummarys {
+    width: 450px;
+    height: 400px;
+  }
+}
+/* end medium screen */
+
+/* large screen */
+@media (min-width: 1000px) and (min-height: 700px) {
+  .CheckoutSummarys {
+    width: 700px;
+    height: 600px;
+  }
+}

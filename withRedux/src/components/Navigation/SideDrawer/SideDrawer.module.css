@@ -1,0 +1,38 @@
+/* mobile first, visible */
+.SideDrawer {
+  position: fixed;
+  width: 280px;
+  max-width: 70%; /* never more than 70% total */
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200; /* above the back drop */
+  background-color: white;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+}
+
+.Logo {
+  height: 11%;
+  margin-bottom: 16px;
+}
+/* end mobile first */
+
+/* other screens */
+@media (min-width: 500px) {
+  .SideDrawer {
+    display: none;
+  }
+}
+/* end other screens */
+
+/* conditional animation classes */
+.Open {
+  transform: translateX(0)        /* make it visible */
+}
+
+.Close {
+  transform: translateX(-100vw)   /* hide it */
+}
+/* end conditional animation classes */

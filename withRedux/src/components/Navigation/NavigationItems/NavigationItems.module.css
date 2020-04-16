@@ -1,0 +1,19 @@
+/* mobile first (now we have a drawer, we didn't before) */
+.NavigationItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+}
+/* end mobile first*/
+
+/* medium devices onwards */
+@media (min-width: 500px) {
+  .NavigationItems {
+    flex-flow: row;
+  }
+}
+/* end medium devices onwards */
